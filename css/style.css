@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:300,regular,500,600,700,800,italic,700italic,&display=swap&subset=cyrillic-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic,700,&subset=cyrillic-ext');
+
+@font-face {
+	font-family: "Dante Kanzlei";
+	src: url("../fonts/DanteKanzlei.woff2") format("woff2"), url("../fonts/DanteKanzlei.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+
+a {
+	color: #000;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+/* !________________important________________ */
+
+.homework {
+	padding: 10px 0px 0px 0px;
+	margin: 0px 0px 50px 0px;
+	color: #666;
+	font-size: 20px;
+}
+
+.homework a {
+	color: #666;
+}
+.lesson_5 {
+	font-size: 40px;
+	margin: 0px 0px 20px 0px;
+}
+
+.lesson_5 span {
+	text-decoration: underline;
+}
+
+.original-source {
+	margin: 0px 0px 20px 0px;
+}
+
+.original-source a {
+	text-decoration: underline;
+	color: #000;
+}
+
+.site h3 {
+	margin: 0px 0px 10px 0px;
+}
+
+.site li {
+	text-decoration: underline;
+	margin: 0px 0px 2px 0px;
+}
+
+.important {
+	color: #ff033e;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0px 0px 50px 0px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+	color: #000;
+}
+
+h3 {
+	font-weight: 700;
+	margin: 0px 0px 5px 0px;
+	color: #000;
+}
+
+.point {
+	margin: 0px 0px 0px -9px;
+	font-size: 20px;
+	font-weight: 900;
+	color: #666;
+}
+/* !________________homework________________ */
+
+.header {
+	padding: 20px 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+h1 {
+	font-family: "Dante Kanzlei";
+	font-size: 60px;
+	text-align: center;
+	color: #000;
+}
+
+.title {
+	padding: 30px 0px 0px 0px;
+}
+
+.nav,
+.menu,
+.search {
+	display: inline;
+}
+
+.lang {
+	margin: -15px 0px 0px 0px;
+	text-align: center;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: "Karla";
+	font-weight: 700;
+}
+
+.lang a {
+}
+
+span {
+	text-align: center;
+}
+
+.сonnect {
+	text-align: right;
+	margin: -15px 0px 0px 0px;
+}
+
+.day {
+	margin: -40px 0px 0px 0px;
+}
+
+.weather {
+	margin: -40px 0px 30px auto;
+	width: 120px;
+}
+
+.weather img {
+	width: 20px;
+}
+
+.weather p + * span {
+	color: rgb(3, 194, 3);
+	font-weight: 700;
+	margin: 10px 0px 0px 0px;
+}
+.weather p + * * span {
+	font-size: 17px;
+}
+
+.border {
+	background-color: #dadada;
+	margin: 0px auto 10px auto;
+	height: 1px;
+}
+
+.topic {
+	text-align: center;
+	word-spacing: 10px;
+	margin: 0px 0px 10px 0px;
+}
+
+.double {
+	background-color: #000;
+	margin: 0px auto 3px auto;
+	height: 1px;
+}
+
+/* !________________section1________________ */
+
+.section1 {
+	margin: 0px 0px 20px 0px;
+}
+
+.section1 a {
+	color: #666;
+}
+
+.section1-block {
+	display: inline-block;
+	padding: 10px;
+	max-width: 33.333%;
+	height: 290px;
+	vertical-align: top;
+}
+
+.section1-block a + * p {
+	text-align: right;
+	font-size: 13px;
+}
+
+.section1-block img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.vertical-border {
+	display: inline-block;
+	width: 1px;
+	background-color: #dadada;
+	height: 264px;
+	vertical-align: top;
+}
+.blocks {
+	display: inline-block;
+	padding: 0px 0px 0px 10px;
+	max-width: 100%;
+}
+
+.block-top {
+	width: 300px;
+	margin: 0px 0px 10px 0px;
+}
+
+.horizon-border {
+	max-width: 100%;
+	background-color: #dadada;
+	height: 1px;
+	margin: 0px 0px 10px 0px;
+}
+
+.block-bottom {
+	width: 300px;
+}
+
+.section1 li {
+	margin: 0px 0px 5px 0px;
+}
+
+/* !________________section2________________ */
+.section2 p {
+	color: #666;
+}
+
+.section2 h2 {
+	margin: 0px 0px 20px 0px;
+}
+
+.section2 h3 {
+	margin: 0px 0px 20px 0px;
+}
+
+.section2-block1 {
+	display: inline-block;
+	width: 67.5%;
+	margin: 0px 14px 0px 0px;
+	vertical-align: top;
+}
+
+.block1-block1 a p {
+	font-size: 14px;
+	text-shadow: 0px 0px 4px#666;
+	text-decoration: underline;
+}
+
+.section2-block2 {
+	display: inline-block;
+
+	width: 29%;
+	vertical-align: top;
+}
+
+.section2-block1-border {
+	background-color: #000000;
+	height: 1px;
+	width: 100%;
+	margin: 0px 14px 0px 0px;
+	vertical-align: top;
+}
+
+.section2-block2-border {
+	background-color: #000000;
+	height: 1px;
+	width: 100%;
+	vertical-align: top;
+}
+
+.block1-block1 {
+	display: inline-block;
+	padding: 5px;
+	max-width: 32.5%;
+	height: 250px;
+	vertical-align: top;
+	margin: 0px 0px 10px 0px;
+}
+
+.over1 {
+	overflow: hidden;
+	font-size: 19px;
+}
+
+.over2 {
+	overflow: scroll;
+	font-size: 19px;
+}
+
+.block1-block1 img {
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.section2-block2-vertical-border {
+	display: inline-block;
+	width: 1px;
+	background-color: #dadada;
+	height: 220px;
+	vertical-align: top;
+	margin: 20px 0px 0px -9px;
+}
+
+.section2-block2-block2 {
+	display: inline-block;
+	width: 100%;
+}
+
+.section2-block2-block2 > h2 {
+	margin: 0px 0px 0px 10px;
+	text-decoration: line-through;
+	font-size: 19px;
+}
+
+.column1 {
+	display: inline-block;
+	width: 49%;
+	padding: 10px;
+}
+
+.column1 p {
+	margin: 0px 0px 10px 0px;
+	font-family: 'Karla', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.column1-over h2 {
+	overflow: scroll;
+	height: 100px;
+}
+
+.column2 {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	margin: 0px 0px 66px 0px;
+}
+
+.column2 img {
+	width: 200px;
+	height: 150px;
+}
+
+.section2-block2-block2-over {
+	overflow: auto;
+	height: 241px;
+}
+
+.column2 img {
+	width: 100%;
+}
+
+/* !________________homework________________ */
+
+.home {
+	padding: 100px 0px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 0px 20px 0px;
+}
+
+.home h3 {
+	color: #666;
+	margin: 0px 0px 20px 0px;
+}
+
+/* !________________span________________ */
+
+.span{
+	margin: 0px 0px 40px 0px;
+}
+
+.home span {
+	display: block;
+	text-align: left;
+}
+
+/* !________________block________________ */
+
+.block{
+	margin: 0px 0px 40px 0px;
+}
+
+.div-block {
+	vertical-align: top;
+	max-width: 200px;
+	height: 200px;
+	background-color: #999;
+	display: inline-block;
+	padding: 15px;
+}
+
+/* !________________link________________ */
+
+.link-block{
+	margin: 0px 0px 40px 0px;
+}
+
+.margin-link{
+	display: inline-block;
+	background-color: #999;
+	color: #fff;
+	margin: 0px 0px 30px 0px;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+.test{
+	width: 400px;
+	padding: 20px 5px;
+	background-color: #ff033e;
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+/* !________________paragraph________________ */
+
+.paragraph{
+	margin: 0px 0px 40px 0px;
+}
+
+.paragraph p{
+	max-width: 100px;
+	display: inline-block;
+	margin: 0px 30px 0px 0px;
+	padding: 10px;
+	background-color: #dadada;
+}
+
+/* !________________layering________________ */
+
+.layering {
+	margin: 0px 0px 40px 0px;
+}
+.above {
+	background-color:tomato;
+	padding: 30px;
+	font-size: 20px;
+}
+.below {
+	background-color: #8dd88d;
+	padding: 30px;
+	margin: -57px 0px 0px 0px;
+	font-size: 20px;
+}
+
+/* !________________span-big________________ */
+
+.span-big{
+
+}
+
+.span-big span {
+	overflow: auto;
+	max-height: 200px;
+	background-color: #807f7f1c;
+}
+
+.footer{
+	padding: 40px 0px;
+	
+}
+
+.feedback {
+	font-size: 20px;
+	font-weight: 700;
+	color: #666;
+	font-family: 'Karla', sans-serif;
+}
